@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@modules/*": ["test/sub/*"],
+			"@test/*": ["test/*"]
+		}
+	}
+}
