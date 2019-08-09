@@ -7,8 +7,8 @@
 		"test": "node test/index.js"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "anzerr",
+	"license": "MIT",
 	"devDependencies": {
 		"eslint": "^5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
@@ -19,5 +19,17 @@
 	"pathAlias": {
 		"@modules": "test/sub",
 		"@test": "test/"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anzerr/alias.util.git"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"types": "index.d.ts",
+	"bugs": {
+		"url": "https://github.com/anzerr/alias.util/issues"
+	},
+	"homepage": "https://github.com/anzerr/alias.util#readme"
 }
