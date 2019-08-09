@@ -1,6 +1,6 @@
 
 ### `Intro`
-// explain
+Add alias to require and import. the typescript compiler doesn't transform alias paths
 
 #### `Install`
 ``` bash
