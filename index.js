@@ -88,7 +88,7 @@ module.exports = {
 		}
 		let p = {};
 		for (let i in tsconfig.compilerOptions.paths) {
-			p[i.replace(/[\/\\]\*$/, '')] = tsconfig.compilerOptions.paths[i][0].replace(/[\/\\]\*$/, '/');
+			p[i.replace(/[\/\\]\*$/, '')] = path.join(tsconfig.compilerOptions.outDir || '', tsconfig.compilerOptions.paths[i][0].replace(/[\/\\]\*$/, '/'));
 		}
 		return new Alias(p);
 	},
