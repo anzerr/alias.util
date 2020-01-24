@@ -6,7 +6,6 @@
 	"scripts": {
 		"test": "node test/index.js"
 	},
-	"keywords": [],
 	"author": "anzerr",
 	"license": "MIT",
 	"devDependencies": {

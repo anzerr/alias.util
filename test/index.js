@@ -40,5 +40,5 @@ assert.equal(require('@modules/index.js'), 'cat');
 try {
 	require('@test/sub/index.js');
 } catch(e) {
-	assert.equal(e.toString(), 'Error: Cannot find module \'@test/sub/index.js\'');
+	assert.notEqual(e.toString().match('Error: Cannot find module \'@test/sub/index.js\''), null);
 }
