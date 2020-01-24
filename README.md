@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/alias.util/workflows/publish/badge.svg)
+
 Add alias to require and import. the typescript compiler doesn't transform alias paths
 
 #### `Install`
