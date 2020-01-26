@@ -1,34 +1,40 @@
 {
 	"name": "alias.util",
 	"version": "1.0.4",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "node test/index.js"
-	},
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint": "5.11.1",
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
-	},
-	"pathAlias": {
-		"@modules": "test/sub",
-		"@test": "test/"
+	"description": "Alias form require and import",
+	"keywords": [
+		"alias",
+		"node",
+		"typescript",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/alias.util#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/alias.util/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:anzerr/alias.util.git"
 	},
+	"license": "MIT",
+	"author": "anzerr",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "node test/index.js"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"devDependencies": {
+		"eslint": "5.11.1",
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
 	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/alias.util/issues"
-	},
-	"homepage": "https://github.com/anzerr/alias.util#readme"
+	"pathAlias": {
+		"@modules": "test/sub",
+		"@test": "test/"
+	}
 }
